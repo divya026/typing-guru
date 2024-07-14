@@ -1,0 +1,14 @@
+.btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-primary {
+  cursor: pointer;
+  background-color: #a883ba;
+  border-radius: 10px;
+  padding: 0.4em 0.8em;
+  border: none;
+  color: white;
+}

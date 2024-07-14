@@ -11,10 +11,11 @@ import Game from "./components/Game/Game";
 function App() {
   return (
     <div className="App">
-      <Navbar />
       <div className="main-container">
+        <Navbar />
         <div className="container">
           <Routes>
+            <Route path="/" element={<Home />} />
             <Route path="/home" element={<Home />} />
             <Route path="/course" element={<Course />} />
             <Route path="/word-drill" element={<WordDrill />} />
